@@ -18,7 +18,24 @@
   } */
   .square {
     grid-column-gap: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(white);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0;
+    font-size: 30px;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-column-gap: 0px;
+    grid-gap: 0;
+    background-color: white;
+    padding: 0;
+  }
+  .cube {
+    grid-column-gap: 0;
+    background-color: rgba(white);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 0;
     font-size: 30px;
