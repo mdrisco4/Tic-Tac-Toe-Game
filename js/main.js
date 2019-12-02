@@ -4,6 +4,7 @@ function clearBoard() {
     return;
     }
 function resetBoard() {
+    // I KNOW I CAN LOOP THIS BUT IT WORKS NOW!!  AND I'M TIRED!
     document.querySelectorAll(".square")[0].style.background = "white"
     document.querySelectorAll(".square")[1].style.background = "white"
     document.querySelectorAll(".square")[2].style.background = "white"
@@ -146,6 +147,7 @@ function makeGrid() {
 makeGrid()
 
 document.querySelector(".resetButton").addEventListener('click', function(){
+    // I KNOW I CAN LOOP THIS BUT IT WORKS NOW!!  AND I'M TIRED!
     document.querySelectorAll(".square")[0].style.background = "white"
     document.querySelectorAll(".square")[1].style.background = "white"
     document.querySelectorAll(".square")[2].style.background = "white"
